@@ -1,6 +1,6 @@
 # Local Services AJ
 
-Bienvenido a **Local Services AJ**, el marketplace que conecta a profesionales locales con clientes que necesitan servicios rápidos y confiables.
+Bienvenido a **Local Services AJ**, el marketplace que conecta a profesionales locales con clientes que necesitan servicios rápidos, confiables y de calidad.
 
 ---
 
@@ -14,7 +14,7 @@ Bienvenido a **Local Services AJ**, el marketplace que conecta a profesionales l
 ### Para Proveedores:
 1. **Regístrate** en nuestra plataforma como proveedor.  
 2. **Publica** tus servicios, tarifas y horarios disponibles.  
-3. **Conecta** con clientes locales y haz crecer tu negocio.
+3. **Conecta** con nuevos clientes y haz crecer tu negocio.
 
 ---
 
@@ -63,9 +63,11 @@ _Encuentra expertos locales para cada necesidad, ya sea en tu hogar o negocio._
 ---
 
 ## 🌱 **Misión**
+
 Conectar a profesionales locales con clientes que buscan servicios confiables, rápidos y de calidad, facilitando el acceso a soluciones en diversas áreas como plomería, jardinería y limpieza.
 
 ## 🌟 **Visión**
+
 Ser la plataforma líder en servicios locales, reconocida por fomentar el crecimiento de proveedores y mejorar la calidad de vida de las comunidades.
 
 ---
