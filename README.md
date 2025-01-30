@@ -62,6 +62,14 @@ _Encuentra expertos locales para cada necesidad, ya sea en tu hogar o negocio._
 
 ---
 
+## 🌱 **Misión**
+Conectar a profesionales locales con clientes que buscan servicios confiables, rápidos y de calidad, facilitando el acceso a soluciones en diversas áreas como plomería, jardinería y limpieza.
+
+## 🌟 **Visión**
+Ser la plataforma líder en servicios locales, reconocida por fomentar el crecimiento de proveedores y mejorar la calidad de vida de las comunidades.
+
+---
+
 ## 📲 Regístrate Hoy
 
 **¿Eres Cliente?**  
