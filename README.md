@@ -22,9 +22,12 @@ Bienvenido a **Local Services AJ**, el marketplace que conecta a profesionales l
 
 Ofrecemos una variedad de servicios locales que incluyen:
 
-- **Plomería** 💧  
-- **Jardinería** 🌿  
-- **Limpieza** 🧹  
+- **Plomería** 💧
+- <img src="plomeria.png" alt="Plomero">
+- **Jardinería** 🌿
+- <img src="jardineria.png" alt="Jardinero">
+- **Limpieza** 🧹
+- <img src="limpieza.png" alt="Limpieza">
 - **Reparaciones** 🔧  
 - **Electricidad** ⚡  
 
