@@ -29,7 +29,18 @@ Ofrecemos una variedad de servicios locales que incluyen:
 </div>
 
 - **Jardinería** 🌿
+  
+<div style="text-align: center;">
+  <img src="jardineria.png" alt="Jardineria" width="150" height="150">
+</div>
+
 - **Limpieza** 🧹
+
+<div style="text-align: center;">
+  <img src="limpieza.png" alt="Limpieza" width="150" height="150">
+</div>
+
+
 - **Reparaciones** 🔧  
 - **Electricidad** ⚡  
 
