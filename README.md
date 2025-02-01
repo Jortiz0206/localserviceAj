@@ -4,16 +4,15 @@ Bienvenido a **Local Services AJ**, el marketplace que conecta a profesionales l
 
 ---
 
-## 🌱 **Misión**
+## 🌱 Misión
 
 Conectar a profesionales locales con clientes que buscan servicios confiables, rápidos y de calidad, facilitando el acceso a soluciones en diversas áreas como plomería, jardinería y limpieza.
 
-## 🌟 **Visión**
+## 🌟 Visión
 
 Ser la plataforma líder en servicios locales, reconocida por fomentar el crecimiento de proveedores y mejorar la calidad de vida de las comunidades.
 
 ---
-
 
 ## 🚀 ¿Cómo Funciona?
 
@@ -61,24 +60,24 @@ _Encuentra expertos locales para cada necesidad, ya sea en tu hogar o negocio._
 - **Confiable**: Todos los proveedores están verificados.  
 - **Seguro**: Pagos seguros y protegidos para tu tranquilidad.
 
-
 ---
-
 
 ## 🌟 Testimonios
 
-> "Gracias a Local Services AJ, encontré un excelente plomero en minutos. ¡100% recomendado!" – María G.
+> "Gracias a Local Services AJ, encontré un excelente plomero en minutos. ¡100% recomendado!"  
+> – María G.
 
-> "Mi negocio creció gracias a esta plataforma." – Carlos M.
+> "Mi negocio creció gracias a esta plataforma."  
+> – Carlos M.
 
 ---
 
 ## 📖 Preguntas Frecuentes
 
-*¿Cómo garantizan la calidad de los proveedores?*  
+**¿Cómo garantizan la calidad de los proveedores?**  
 Todos los proveedores pasan por un proceso de verificación antes de ser aprobados en la plataforma.
 
-*¿Cuáles son los métodos de pago disponibles?*  
+**¿Cuáles son los métodos de pago disponibles?**  
 Puedes pagar con tarjeta de crédito, débito o transferencia bancaria.
 
 ---
@@ -95,6 +94,8 @@ Puedes pagar con tarjeta de crédito, débito o transferencia bancaria.
 
 ## 📍 Footer (Pie de Página)
 
+&copy; 2025 Local Services AJ | Todos los derechos reservados.
+
 Síguenos en:  
 [Facebook](#) | [Instagram](#) | [LinkedIn](#)
 
@@ -102,6 +103,3 @@ Síguenos en:
 - [Términos y Condiciones](#)  
 - [Política de Privacidad](#)  
 - [Política de Cookies](#)
-
-&copy; 2025 Local Services AJ | Todos los derechos reservados.
-
