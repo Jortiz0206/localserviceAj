@@ -6,212 +6,252 @@
     <title>Local Services AJ</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
+        /* Estilos generales */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #141E30, #243B55);
-            color: white;
-            text-align: center;
+            background: #0a0a0a;
+            color: #fff;
+            line-height: 1.6;
         }
+
+        /* Banner y navegación */
         header {
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.8);
             padding: 20px;
-            font-size: 30px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
         }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-        }
-        .services {
+
+        nav {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
             gap: 20px;
-            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff4b2b;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ff4b2b;
+        }
+
+        /* Estilos futuristas */
+        h1, h2, h3 {
+            color: #ff4b2b;
+            text-shadow: 0 0 10px rgba(255, 75, 43, 0.7);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-top: 40px;
+        }
+
+        h3 {
+            font-size: 1.8em;
             margin-top: 30px;
         }
-        .service {
-            width: 250px;
+
+        p, li {
+            font-size: 1.1em;
+            color: #ddd;
+        }
+
+        blockquote {
             background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s, box-shadow 0.3s;
+            border-left: 5px solid #ff4b2b;
+            padding: 15px;
+            margin: 20px 0;
+            color: #fff;
+            font-style: italic;
         }
-        .service:hover {
-            transform: translateY(-10px);
-            box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.2);
-        }
-        .service img {
-            width: 100px;
-            height: 100px;
-            margin-bottom: 10px;
-            filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.5));
-        }
+
         .cta {
             background: linear-gradient(to right, #ff416c, #ff4b2b);
             color: white;
-            padding: 15px 30px;
+            padding: 10px 20px;
             border: none;
-            font-size: 18px;
+            font-size: 1.1em;
             cursor: pointer;
             border-radius: 5px;
             text-decoration: none;
             display: inline-block;
-            margin-top: 20px;
+            margin-top: 10px;
             transition: background 0.3s, transform 0.3s;
         }
+
         .cta:hover {
             background: linear-gradient(to right, #ff4b2b, #ff416c);
             transform: scale(1.05);
         }
-        .faq, .testimonials {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-            margin-top: 40px;
+
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25d366;
+            color: #fff;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 1.5em;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
         }
+
+        .whatsapp-button:hover {
+            transform: scale(1.1);
+        }
+
         footer {
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
+            background: rgba(0, 0, 0, 0.8);
             padding: 20px;
             margin-top: 40px;
-            font-size: 14px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #ddd;
         }
+
         .social-icons a {
-            color: white;
+            color: #fff;
             margin: 0 10px;
-            font-size: 20px;
+            font-size: 1.2em;
             transition: color 0.3s;
         }
+
         .social-icons a:hover {
             color: #ff4b2b;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
+    <!-- Banner y navegación -->
     <header>
-        🚀 Local Services AJ - Conectando Clientes y Profesionales
+        <nav>
+            <div class="logo">Local Services AJ</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#como-funciona">¿Cómo Funciona?</a></li>
+                <li><a href="#servicios">Nuestros Servicios</a></li>
+                <li><a href="#registrate">Regístrate</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- Contenido principal -->
     <div class="container">
-        <h1>Local Services AJ</h1>
-        <p>Bienvenido a <em>Local Services AJ</em>, el marketplace que conecta a profesionales locales con clientes que necesitan servicios rápidos, confiables y de calidad.</p>
+        <section id="inicio">
+            <h1>🚀 Local Services AJ - Conectando Clientes y Profesionales</h1>
+            <p>Bienvenido a <strong>Local Services AJ</strong>, el marketplace que conecta a profesionales locales con clientes que necesitan servicios rápidos, confiables y de calidad.</p>
+        </section>
 
+        <section id="sobre-nosotros">
+            <h2>🌱 Misión</h2>
+            <p>Conectar a profesionales locales con clientes que buscan servicios confiables, rápidos y de calidad, facilitando el acceso a soluciones en diversas áreas como plomería, jardinería y limpieza.</p>
 
-        <h2>🚀 ¿Cómo Funciona?</h2>
+            <h2>🌟 Visión</h2>
+            <p>Ser la plataforma líder en servicios locales, reconocida por fomentar el crecimiento de proveedores y mejorar la calidad de vida de las comunidades.</p>
+        </section>
 
+        <section id="como-funciona">
+            <h2>🚀 ¿Cómo Funciona?</h2>
+            <h3>Para Clientes:</h3>
+            <ol>
+                <li><strong>Busca</strong> el servicio que necesitas.</li>
+                <li><strong>Elige</strong> al profesional adecuado para tu tarea.</li>
+                <li><strong>Disfruta</strong> de un trabajo bien hecho y sin preocupaciones.</li>
+            </ol>
 
-        <h3>Para Clientes:</h3>
-        <ol>
-            <li><em>Busca</em> el servicio que necesitas.</li>
-            <li><em>Elige</em> al profesional adecuado para tu tarea.</li>
-            <li><em>Disfruta</em> de un trabajo bien hecho y sin preocupaciones.</li>
-        </ol>
+            <h3>Para Proveedores:</h3>
+            <ol>
+                <li><strong>Regístrate</strong> en nuestra plataforma como proveedor.</li>
+                <li><strong>Publica</strong> tus servicios, tarifas y horarios disponibles.</li>
+                <li><strong>Conecta</strong> con nuevos clientes y haz crecer tu negocio.</li>
+            </ol>
+        </section>
 
+        <section id="servicios">
+            <h2>🔧 Nuestros Servicios</h2>
+            <p>Ofrecemos una variedad de servicios locales que incluyen:</p>
+            <ul>
+                <li><strong>Plomería</strong> 💧</li>
+                <li><strong>Jardinería</strong> 🌿</li>
+                <li><strong>Limpieza</strong> 🧹</li>
+                <li><strong>Reparaciones</strong> 🔧</li>
+                <li><strong>Electricidad</strong> ⚡</li>
+            </ul>
+            <p><em>Encuentra expertos locales para cada necesidad, ya sea en tu hogar o negocio.</em></p>
+        </section>
 
-        <h3>Para Proveedores:</h3>
-        <ol>
-            <li><em>Regístrate</em> en nuestra plataforma como proveedor.</li>
-            <li><em>Publica</em> tus servicios, tarifas y horarios disponibles.</li>
-            <li><em>Conecta</em> con nuevos clientes y haz crecer tu negocio.</li>
-        </ol>
+        <section id="registrate">
+            <h2>📲 Regístrate Hoy</h2>
+            <p><strong>¿Eres Cliente?</strong></p>
+            <a class="cta" href="#">Encuentra tu Profesional</a>
+            <p><strong>¿Eres Proveedor?</strong></p>
+            <a class="cta" href="#">Únete como Proveedor</a>
+        </section>
 
-
-        <h2>🔧 Nuestros Servicios</h2>
-        <div class="services">
-            <div class="service">
-                <img src="plomeria.png" alt="Plomería">
-                <h3>Plomería 💧</h3>
-            </div>
-            <div class="service">
-                <img src="jardineria.png" alt="Jardinería">
-                <h3>Jardinería 🌿</h3>
-            </div>
-            <div class="service">
-                <img src="limpieza.png" alt="Limpieza">
-                <h3>Limpieza 🧹</h3>
-            </div>
-        </div>
-        <p>Ofrecemos una variedad de servicios locales que incluyen:</p>
-        <ul>
-            <li><em>Plomería</em> 💧</li>
-            <li><em>Jardinería</em> 🌿</li>
-            <li><em>Limpieza</em> 🧹</li>
-            <li><em>Reparaciones</em> 🔧</li>
-            <li><em>Electricidad</em> ⚡</li>
-        </ul>
-        <p>Encuentra expertos locales para cada necesidad, ya sea en tu hogar o negocio.</p>
-
-
-        <div class="testimonials">
+        <section>
             <h2>🌟 Testimonios</h2>
             <blockquote>
                 <p>"Gracias a Local Services AJ, encontré un excelente plomero en minutos. ¡100% recomendado!"</p>
-                <footer>- María G.</footer>
+                <footer>– María G.</footer>
             </blockquote>
             <blockquote>
-                <p>"Mi negocio de jardinería creció gracias a las oportunidades que me ofrece esta plataforma."</p>
-                <footer>- Carlos M.</footer>
+                <p>"Mi negocio creció gracias a esta plataforma."</p>
+                <footer>– Carlos M.</footer>
             </blockquote>
-        </div>
+        </section>
 
-
-        <h2>💰 Precios</h2>
-
-
-        <h3>Para Clientes:</h3>
-        <ul>
-            <li><em>Paga solo por lo que necesitas.</em></li>
-            <ul>
-                <li>Los precios varían según el servicio y la ubicación.</li>
-            </ul>
-        </ul>
-
-
-        <h3>Para Proveedores:</h3>
-        <ul>
-            <li><em>Comisiones por transacción</em> o <em>tarifa de suscripción mensual.</em></li>
-            <ul>
-                <li>Elige el plan que mejor se adapte a tu negocio y comienza a recibir nuevos clientes.</li>
-            </ul>
-        </ul>
-
-
-        <h2>🤔 ¿Por Qué Elegir Local Services AJ?</h2>
-        <ul>
-            <li><em>Rápido</em>: Conecta con profesionales locales en minutos.</li>
-            <li><em>Confiable</em>: Todos los proveedores están verificados.</li>
-            <li><em>Seguro</em>: Pagos seguros y protegidos para tu tranquilidad.</li>
-        </ul>
-
-
-        <h2>🌱 Misión</h2>
-        <p>Conectar a profesionales locales con clientes que buscan servicios confiables, rápidos y de calidad, facilitando el acceso a soluciones en diversas áreas como plomería, jardinería y limpieza.</p>
-
-
-        <h2>🌟 Visión</h2>
-        <p>Ser la plataforma líder en servicios locales, reconocida por fomentar el crecimiento de proveedores y mejorar la calidad de vida de las comunidades.</p>
-
-
-        <h2>📲 Regístrate Hoy</h2>
-        <a class="cta" href="#">Encuentra tu Profesional</a>
-        <a class="cta" href="#">Únete como Proveedor</a>
-
-
-        <div class="faq">
+        <section>
             <h2>📖 Preguntas Frecuentes</h2>
-            <p><strong>¿Cómo garantizan la calidad de los proveedores?</strong></p>
+            <p><em>¿Cómo garantizan la calidad de los proveedores?</em></p>
             <p>Todos los proveedores pasan por un proceso de verificación antes de ser aprobados en la plataforma.</p>
-            <p><strong>¿Cuáles son los métodos de pago disponibles?</strong></p>
+            <p><em>¿Cuáles son los métodos de pago disponibles?</em></p>
             <p>Puedes pagar con tarjeta de crédito, débito o transferencia bancaria.</p>
-        </div>
+        </section>
     </div>
+
+    <!-- Botón de WhatsApp -->
+    <a class="whatsapp-button" href="https://wa.me/573183623168" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Local Services AJ | Todos los derechos reservados.</p>
         <p>Síguenos en:</p>
@@ -229,3 +269,4 @@
     </footer>
 </body>
 </html>
+
