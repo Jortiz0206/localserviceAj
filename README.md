@@ -1,113 +1,74 @@
-# Local Services AJ
+# 🛠️ Local Services AJ - Conectando Clientes y Profesionales
 
-Bienvenido a **Local Services AJ**, el marketplace que conecta a profesionales locales con clientes que necesitan servicios rápidos, confiables y de calidad.
+Bienvenido a **Local Services AJ**, la plataforma que une a clientes con profesionales de confianza.
 
 ---
 
 ## 🚀 ¿Cómo Funciona?
 
 ### Para Clientes:
-1. **Busca** el servicio que necesitas.  
-2. **Elige** al profesional adecuado para tu tarea.  
-3. **Disfruta** de un trabajo bien hecho y sin preocupaciones.
+1. **Busca** el servicio que necesitas.
+2. **Elige** al profesional adecuado.
+3. **Disfruta** un trabajo bien hecho.
 
 ### Para Proveedores:
-1. **Regístrate** en nuestra plataforma como proveedor.  
-2. **Publica** tus servicios, tarifas y horarios disponibles.  
-3. **Conecta** con nuevos clientes y haz crecer tu negocio.
+1. **Regístrate** como proveedor.
+2. **Publica** tus servicios.
+3. **Conecta** con nuevos clientes.
 
 ---
 
 ## 🔧 Nuestros Servicios
 
-Ofrecemos una variedad de servicios locales que incluyen:
+Ofrecemos una variedad de servicios locales, incluyendo:
 
-- **Plomería** 💧
+### Plomería 💧  
+![Plomería](plomeria.png)
 
-<div style="text-align: center;">
-  <img src="plomeria.png" alt="Plomero" width="150" height="150">
-</div>
+### Jardinería 🌿  
+![Jardinería](jardineria.png)
 
-- **Jardinería** 🌿
-  
-<div style="text-align: center;">
-  <img src="jardineria.png" alt="Jardineria" width="150" height="150">
-</div>
+### Limpieza 🧹  
+![Limpieza](limpieza.png)
 
-- **Limpieza** 🧹
-
-<div style="text-align: center;">
-  <img src="limpieza.png" alt="Limpieza" width="150" height="150">
-</div>
-
-
-- **Reparaciones** 🔧  
-- **Electricidad** ⚡  
-
-_Encuentra expertos locales para cada necesidad, ya sea en tu hogar o negocio._
-
-
+Además, contamos con **reparaciones**, **electricidad** y más.
 
 ---
 
 ## 🌟 Testimonios
 
 > _"Gracias a Local Services AJ, encontré un excelente plomero en minutos. ¡100% recomendado!"_  
-**- María G.**
+> **- María G.**
 
-> _"Mi negocio de jardinería creció gracias a las oportunidades que me ofrece esta plataforma."_  
-**- Carlos M.**
-
----
-
-## 💰 Precios
-
-### Para Clientes:
-- **Paga solo por lo que necesitas.**
-  - Los precios varían según el servicio y la ubicación.
-
-### Para Proveedores:
-- **Comisiones por transacción** o **tarifa de suscripción mensual.**
-  - Elige el plan que mejor se adapte a tu negocio y comienza a recibir nuevos clientes.
+> _"Mi negocio creció gracias a esta plataforma."_  
+> **- Carlos M.**
 
 ---
 
-## 🤔 ¿Por Qué Elegir Local Services AJ?
+## 📖 Preguntas Frecuentes
 
-- **Rápido**: Conecta con profesionales locales en minutos.  
-- **Confiable**: Todos los proveedores están verificados.  
-- **Seguro**: Pagos seguros y protegidos para tu tranquilidad.
+**¿Cómo garantizan la calidad de los proveedores?**  
+Todos los proveedores pasan por un proceso de verificación antes de ser aprobados en la plataforma.
 
----
-
-## 🌱 **Misión**
-
-Conectar a profesionales locales con clientes que buscan servicios confiables, rápidos y de calidad, facilitando el acceso a soluciones en diversas áreas como plomería, jardinería y limpieza.
-
-## 🌟 **Visión**
-
-Ser la plataforma líder en servicios locales, reconocida por fomentar el crecimiento de proveedores y mejorar la calidad de vida de las comunidades.
+**¿Cuáles son los métodos de pago disponibles?**  
+Puedes pagar con **tarjeta de crédito, débito o transferencia bancaria**.
 
 ---
 
 ## 📲 Regístrate Hoy
 
-**¿Eres Cliente?**  
-[Encuentra tu Profesional](#)
-
-**¿Eres Proveedor?**  
-[Únete como Proveedor](#)
+🔹 [Encuentra tu Profesional](#)  
+🔹 [Únete como Proveedor](#)
 
 ---
 
-## 📍 Footer (Pie de Página)
+## 📍 Conéctate con Nosotros
 
-### Síguenos en Redes Sociales
-- [Facebook](#)  
-- [Instagram](#)  
-- [LinkedIn](#)
+📌 **Síguenos en Redes Sociales:**  
+[Facebook](#) | [Instagram](#) | [LinkedIn](#)
 
-### Enlaces Rápidos
-- [Términos y Condiciones](#)  
-- [Política de Privacidad](#)  
-- [Política de Cookies](#)
+📌 **Enlaces Rápidos:**  
+[Términos y Condiciones](#) | [Política de Privacidad](#)
+
+📌 **Derechos Reservados**  
+© 2025 Local Services AJ
