@@ -4,168 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Services AJ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
         }
-        h1, h2, h3 {
-            color: #333;
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
         }
-        img {
-            display: block;
-            margin: 0 auto;
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
         }
-        blockquote {
-            background: #f9f9f9;
-            border-left: 10px solid #ccc;
-            margin: 1.5em 10px;
-            padding: 0.5em 10px;
-            quotes: "\201C""\201D""\2018""\2019";
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
         }
-        blockquote:before {
-            color: #ccc;
-            content: open-quote;
-            font-size: 4em;
-            line-height: 0.1em;
-            margin-right: 0.25em;
-            vertical-align: -0.4em;
+        .service {
+            width: 250px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-        blockquote p {
-            display: inline;
+        .service img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .cta {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta:hover {
+            background-color: #0056b3;
+        }
+        .faq {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
 
-    <h1>Local Services AJ</h1>
-    <p>Bienvenido a <strong>Local Services AJ</strong>, el marketplace que conecta a profesionales locales con clientes que necesitan servicios rápidos, confiables y de calidad.</p>
+    <header>
+        🛠️ Local Services AJ - Conectando Clientes y Profesionales
+    </header>
 
-    <hr>
+    <div class="container">
+        <h2>🚀 ¿Cómo Funciona?</h2>
+        <p><strong>Para Clientes:</strong> Busca, elige y recibe el mejor servicio.</p>
+        <p><strong>Para Proveedores:</strong> Regístrate, publica tus servicios y crece.</p>
 
-    <h2>🚀 ¿Cómo Funciona?</h2>
-
-    <h3>Para Clientes:</h3>
-    <ol>
-        <li><strong>Busca</strong> el servicio que necesitas.</li>
-        <li><strong>Elige</strong> al profesional adecuado para tu tarea.</li>
-        <li><strong>Disfruta</strong> de un trabajo bien hecho y sin preocupaciones.</li>
-    </ol>
-
-    <h3>Para Proveedores:</h3>
-    <ol>
-        <li><strong>Regístrate</strong> en nuestra plataforma como proveedor.</li>
-        <li><strong>Publica</strong> tus servicios, tarifas y horarios disponibles.</li>
-        <li><strong>Conecta</strong> con nuevos clientes y haz crecer tu negocio.</li>
-    </ol>
-
-    <hr>
-
-    <h2>🔧 Nuestros Servicios</h2>
-    <p>Ofrecemos una variedad de servicios locales que incluyen:</p>
-
-    <ul>
-        <li><strong>Plomería</strong> 💧</li>
-        <div style="text-align: center;">
-            <img src="plomeria.png" alt="Plomero" width="150" height="150">
+        <h2>🔧 Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service">
+                <img src="plomeria.png" alt="Plomería">
+                <h3>Plomería 💧</h3>
+            </div>
+            <div class="service">
+                <img src="jardineria.png" alt="Jardinería">
+                <h3>Jardinería 🌿</h3>
+            </div>
+            <div class="service">
+                <img src="limpieza.png" alt="Limpieza">
+                <h3>Limpieza 🧹</h3>
+            </div>
         </div>
 
-        <li><strong>Jardinería</strong> 🌿</li>
-        <div style="text-align: center;">
-            <img src="jardineria.png" alt="Jardineria" width="150" height="150">
+        <h2>🌟 Testimonios</h2>
+        <p>"Gracias a Local Services AJ, encontré un excelente plomero en minutos. ¡100% recomendado!" – María G.</p>
+        <p>"Mi negocio creció gracias a esta plataforma." – Carlos M.</p>
+
+        <h2>📖 Preguntas Frecuentes</h2>
+        <div class="faq">
+            <p><strong>¿Cómo garantizan la calidad de los proveedores?</strong></p>
+            <p>Todos los proveedores pasan por un proceso de verificación antes de ser aprobados en la plataforma.</p>
+            <p><strong>¿Cuáles son los métodos de pago disponibles?</strong></p>
+            <p>Puedes pagar con tarjeta de crédito, débito o transferencia bancaria.</p>
         </div>
 
-        <li><strong>Limpieza</strong> 🧹</li>
-        <div style="text-align: center;">
-            <img src="limpieza.png" alt="Limpieza" width="150" height="150">
+        <h2>📲 Regístrate Hoy</h2>
+        <a class="cta" href="#">Encuentra tu Profesional</a>
+        <a class="cta" href="#">Únete como Proveedor</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Local Services AJ | Todos los derechos reservados.</p>
+        <p>Síguenos en:</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
         </div>
+    </footer>
 
-        <li><strong>Reparaciones</strong> 🔧</li>
-        <li><strong>Electricidad</strong> ⚡</li>
-    </ul>
-
-    <p><em>Encuentra expertos locales para cada necesidad, ya sea en tu hogar o negocio.</em></p>
-
-    <hr>
-
-    <h2>🌟 Testimonios</h2>
-    <blockquote>
-        <p>"Gracias a Local Services AJ, encontré un excelente plomero en minutos. ¡100% recomendado!"</p>
-        <footer>- María G.</footer>
-    </blockquote>
-
-    <blockquote>
-        <p>"Mi negocio de jardinería creció gracias a las oportunidades que me ofrece esta plataforma."</p>
-        <footer>- Carlos M.</footer>
-    </blockquote>
-
-    <hr>
-
-    <h2>💰 Precios</h2>
-
-    <h3>Para Clientes:</h3>
-    <ul>
-        <li><strong>Paga solo por lo que necesitas.</strong></li>
-        <ul>
-            <li>Los precios varían según el servicio y la ubicación.</li>
-        </ul>
-    </ul>
-
-    <h3>Para Proveedores:</h3>
-    <ul>
-        <li><strong>Comisiones por transacción</strong> o <strong>tarifa de suscripción mensual.</strong></li>
-        <ul>
-            <li>Elige el plan que mejor se adapte a tu negocio y comienza a recibir nuevos clientes.</li>
-        </ul>
-    </ul>
-
-    <hr>
-
-    <h2>🤔 ¿Por Qué Elegir Local Services AJ?</h2>
-    <ul>
-        <li><strong>Rápido</strong>: Conecta con profesionales locales en minutos.</li>
-        <li><strong>Confiable</strong>: Todos los proveedores están verificados.</li>
-        <li><strong>Seguro</strong>: Pagos seguros y protegidos para tu tranquilidad.</li>
-    </ul>
-
-    <hr>
-
-    <h2>🌱 Misión</h2>
-    <p>Conectar a profesionales locales con clientes que buscan servicios confiables, rápidos y de calidad, facilitando el acceso a soluciones en diversas áreas como plomería, jardinería y limpieza.</p>
-
-    <h2>🌟 Visión</h2>
-    <p>Ser la plataforma líder en servicios locales, reconocida por fomentar el crecimiento de proveedores y mejorar la calidad de vida de las comunidades.</p>
-
-    <hr>
-
-    <h2>📲 Regístrate Hoy</h2>
-    <p><strong>¿Eres Cliente?</strong></p>
-    <p><a href="#">Encuentra tu Profesional</a></p>
-
-    <p><strong>¿Eres Proveedor?</strong></p>
-    <p><a href="#">Únete como Proveedor</a></p>
-
-    <hr>
-
-    <h2>📍 Footer (Pie de Página)</h2>
-
-    <h3>Síguenos en Redes Sociales</h3>
-    <ul>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">LinkedIn</a></li>
-    </ul>
-
-    <h3>Enlaces Rápidos</h3>
-    <ul>
-        <li><a href="#">Términos y Condiciones</a></li>
-        <li><a href="#">Política de Privacidad</a></li>
-        <li><a href="#">Política de Cookies</a></li>
-    </ul>
-
-<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/02/01/02/20250201020550-GAIBTZ4B.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/01/30/00/20250130000943-XS3W5ZHF.js"></script>
     
 </body>
 </html>
