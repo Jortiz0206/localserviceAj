@@ -30,7 +30,7 @@ Ofrecemos una variedad de servicios locales que incluyen:
 
 _Encuentra expertos locales para cada necesidad, ya sea en tu hogar o negocio._
 
-<img src="plomeria.png" alt="Plomero">
+<img src="plomeria.png" alt="Plomero" width="100" height="100">
 
 ---
 
