@@ -95,16 +95,13 @@ Puedes pagar con tarjeta de crédito, débito o transferencia bancaria.
 
 ## 📍 Footer (Pie de Página)
 
-&copy; 2025 Local Services AJ | Todos los derechos reservados.
-
 Síguenos en:  
 [Facebook](#) | [Instagram](#) | [LinkedIn](#)
-
-
 
 ### Enlaces Rápidos
 - [Términos y Condiciones](#)  
 - [Política de Privacidad](#)  
 - [Política de Cookies](#)
 
+&copy; 2025 Local Services AJ | Todos los derechos reservados.
 
